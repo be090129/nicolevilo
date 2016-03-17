@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '1.9.3'
 
 
 gem 'rails', '4.1.1'
@@ -10,7 +11,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.3.5'
+gem 'autoprefixer-rails', '~> 5.2'
 gem 'font-awesome-sass', '~> 4.1.0'
 
 group :development, :test do
